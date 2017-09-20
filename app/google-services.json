@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "528722394975",
+    "firebase_url": "https://chatapplication-e4356.firebaseio.com",
+    "project_id": "chatapplication-e4356",
+    "storage_bucket": "chatapplication-e4356.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:528722394975:android:39a0bed863c38c82",
+        "android_client_info": {
+          "package_name": "com.epicodus.chatapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "528722394975-4f95pb2c2b4dv5oupfpbplj9f8l3dqdd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.epicodus.chatapplication",
+            "certificate_hash": "625b6e5dc9fcb8c601f831e1845d8a9817e93245"
+          }
+        },
+        {
+          "client_id": "528722394975-ufl5vq4l63ub4eccv4vocb060fv649mr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjQjP_9nER5fqpdP7c-72EEU5C9YaKm4k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "528722394975-ufl5vq4l63ub4eccv4vocb060fv649mr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

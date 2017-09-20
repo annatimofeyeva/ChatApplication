@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     //@Bind(R.id.recyclerView) RecyclerView mRecyclerView;
 
     //private MessageListAdapter mAdapter;
-    public ArrayList<Message> mRestaurants = new ArrayList<>();
+    public ArrayList<Message> mMessages = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

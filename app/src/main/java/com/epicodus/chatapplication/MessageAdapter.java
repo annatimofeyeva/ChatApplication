@@ -2,6 +2,7 @@ package com.epicodus.chatapplication;
 
 import android.support.v4.widget.TextViewCompat;
 import android.support.v7.widget.RecyclerView;
+import android.view.ContextMenu;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -27,10 +28,20 @@ public class MessageAdapter extends RecyclerView.Adapter<MessageAdapter.MessageV
     }
 
     @Override
-    public void onBindViewHolder(MessageViewHolder holder, int position) {
+    public void onBindViewHolder(final MessageViewHolder holder, int position) {
 
         Message message = list.get(position);
         holder.textMessage.setText(message.content);
+
+        holder.itemView.setOnCreateContextMenuListener(new View.OnCreateContextMenuListener(){
+
+            @Override
+            public void onCreateContextMenu(ContextMenu menu, View view, ContextMenu.ContextMenuInfo contextMenuInfo) {
+                menu.add(holder.getAdapterPosition(), 0, 0, "Delete");
+                menu.add(holder.getAdapterPosition(), 1, 0, "Update");
+
+            }
+        });
     }
 
     @Override
